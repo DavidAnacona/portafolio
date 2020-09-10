@@ -1,0 +1,85 @@
+*{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        border: none;
+        outline: none;
+}
+
+nav{
+        align-self: center;
+}
+
+.nav-bar{
+        text-align: center;
+}
+
+ul{
+        display: flex;
+        align-self: center;
+        gap: 1rem;
+}
+
+a{
+        color: silver;
+}
+
+a:hover{
+        color: white;
+        text-decoration: none;
+}
+
+.header{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://media1.tenor.com/images/f1d3ed64627b5bc61278dd56cefe4a7f/tenor.gif?itemid=8491515);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+}
+
+.header-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        color: white;
+}
+.header-iconos{
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        margin-bottom: 3rem;
+}
+
+.title{
+        position: relative;
+        top: 50%;
+        width: 24em;
+        margin: 0 auto;
+        border-right: 2px solid rgba(255,255,255,.75);
+        font-size: 180%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+        animation: typewriter 4s steps(30) 1s 1 normal both,
+        blinkTextCursor 500ms steps(30)  normal;
+}
+
+@keyframes typewriter{
+        from{width: 0;}
+        to{width: 20em;}
+}
+
+@keyframes blinkTextCursor{
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
+}
+  
+i{
+        font-size: 2rem;
+}
+
+
