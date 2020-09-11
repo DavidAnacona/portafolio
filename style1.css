@@ -1,0 +1,19 @@
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://icenindia.files.wordpress.com/2018/11/programacion-gif-5.gif);
+}
+.titulo{
+    text-align: center;
+    margin: 3rem 1rem;
+}
+.card-img-top{
+    border-radius: 55rem;
+
+}
+.text{
+    font-size: 2rem;
+    margin: 1rem 4rem;
+}
+.img1{
+    border-radius: 2rem;
+    margin: 1rem 1rem;
+}
